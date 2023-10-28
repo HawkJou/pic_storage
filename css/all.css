@@ -7,12 +7,16 @@ body {
   background-color: #fcc3c3;
   margin: 0 auto;
   margin-top: 90px;
+  border-radius: 8px 8px 0 0;
 }
 .h1 {
   margin: 0 auto;
   margin-top: -80px;
   font-size: 64px;
   line-height: 128px;
+}
+.cis-logo {
+  width: 900px;
 }
 
 /* banner標題框樣式 */
@@ -44,7 +48,10 @@ body {
 .bg-secondary {
   background-color: #ffefd6;
 }
-
+/* img {
+  max-width: 200px;
+  height: auto;
+} */
 /* flex */
 .d-flex {
   display: flex;
@@ -52,4 +59,62 @@ body {
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.flex-all-center {
+  justify-content: center;
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-between {
+  align-content: space-between;
+}
+/* 間距 */
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 16px;
+}
+.mt-3 {
+  margin-top: 24px;
+}
+.mt-4 {
+  margin-top: 32px;
+}
+.mt-5 {
+  margin-top: 40px;
+}
+.mt-6 {
+  margin-top: 48px;
+}
+
+.pb-1 {
+  padding-bottom: 8px;
+}
+.pb-2 {
+  padding-bottom: 16px;
+}
+.pb-3 {
+  padding-bottom: 24px;
+}
+.pb-4 {
+  padding-bottom: 32px;
+}
+.pb-5 {
+  padding-bottom: 40px;
+}
+.pb-6 {
+  padding-bottom: 48px;
 }
