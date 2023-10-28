@@ -7,7 +7,7 @@ body {
   background-color: #fcc3c3;
   margin: 0 auto;
   margin-top: 90px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px;
 }
 .h1 {
   margin: 0 auto;
@@ -17,6 +17,13 @@ body {
 }
 .cis-logo {
   width: 900px;
+}
+/* footer */
+footer {
+  width: 100%;
+  position: absolute;
+  padding: 6rem 0 4rem;
+  z-index: -1;
 }
 
 /* banner標題框樣式 */
@@ -84,7 +91,7 @@ img:hover {
 .flex-column {
   flex-direction: column;
 }
-.flex-all-center {
+.flex-center {
   justify-content: center;
   align-items: center;
 }
@@ -101,6 +108,9 @@ img:hover {
   align-content: space-between;
 }
 /* 間距 */
+.mt-z2 {
+  margin-top: -16px;
+}
 .mt-1 {
   margin-top: 8px;
 }
