@@ -37,6 +37,7 @@ body {
 /* img 設定*/
 /* 透明邊框 */
 img {
+  border: 8px solid transparent;
   border-radius: 2px;
   box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.6),
     inset -2px -2px 4px rgba(255, 255, 255, 0.4);
