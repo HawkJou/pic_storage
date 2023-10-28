@@ -1,0 +1,55 @@
+body {
+  background-color: #ffefd6;
+}
+.container {
+  padding: 10px 32px 32px;
+  width: 1296px;
+  background-color: #fcc3c3;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.h1 {
+  margin: 0 auto;
+  margin-top: -80px;
+  font-size: 64px;
+  line-height: 128px;
+}
+
+/* banner標題框樣式 */
+.banner-lg {
+  width: 800px;
+  text-align: center;
+  border-radius: 24px 8px;
+  box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 4px rgba(200, 160, 160, 0.4),
+    2px 2px 4px rgba(139, 32, 32, 0.6);
+}
+.banner-sm {
+  text-align: center;
+  border-radius: 8px 4px;
+  box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.6),
+    inset -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+/* color */
+.text-primary {
+  color: #86180f;
+}
+.text-secondary {
+  color: #efbb2a;
+}
+.bg-primary {
+  background-color: #86180f;
+}
+.bg-secondary {
+  background-color: #ffefd6;
+}
+
+/* flex */
+.d-flex {
+  display: flex;
+  gap: 16px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
