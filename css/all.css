@@ -36,10 +36,16 @@ footer {
     2px 2px 4px rgba(139, 32, 32, 0.6);
 }
 .banner-sm {
+  font-size: 24px;
+  padding: 8px 48px;
   text-align: center;
   border-radius: 8px 4px;
   box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.6),
     inset -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+button {
+  border: 1px solid transparent;
+  margin-bottom: -16px;
 }
 /* img 設定*/
 /* 透明邊框 */
@@ -64,7 +70,20 @@ img:hover {
   transition: 0.6s;
   opacity: 1;
   border: 8px solid #efbb2a;
+  /* position: relative; */
 }
+/* img[title*="FlexBox"]:hover::after {
+  content: "attr(title)";
+  padding: 4px 8px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  white-space: nowrap;
+  z-index: 2;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+} */
 
 /* color */
 .text-primary {
@@ -72,6 +91,9 @@ img:hover {
 }
 .text-secondary {
   color: #efbb2a;
+}
+.text-white {
+  color: white;
 }
 .bg-primary {
   background-color: #86180f;
